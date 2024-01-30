@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# This script displays Best School 10 times.
+#This script displays Best School 10 times
 
 i="0"
-
 while [ $i -lt 10 ]
 do
-echo Best School
-i=$[$i+1]
+	echo "Best School"
+	i=$[$i+1]
 done
+
