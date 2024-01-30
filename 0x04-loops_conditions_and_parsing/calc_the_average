@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Calculate the average and sum f a series of numbers
+SCORE="0"
+AVERAGE="0"
+SUM="0"
+NUM="0"
+
+while true; do
+	echo -n "ENTER Number ('q' for quit): "; read -r SCORE;
+	if (("$SCORE" < "0")) || (("$SCORE" > "100"));then
+		echo "BE Serious. Common, Try again: "
+	elif [ "$SCORE" == "q" ]; then
+		echo "Average rating: { $AVERAGE% }."
+		echo "SUM of Numbers added: { $SUM }."
+		echo "COUNT of Numbers added: { $NUM } Numbers."
+		break
+	else
+		SUM=$((SUM + SCORE))
+		NUM=$((NUM +1))
+		AVERAGE=$((SUM / NUM))
+	fi
+done
+
+echo "Exiting"
