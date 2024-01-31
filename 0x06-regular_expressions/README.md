@@ -2,23 +2,18 @@
 
 
 <h1 class="gap">0x06. Regular expression</h1>
-<div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[{&quot;id&quot;:5,&quot;value&quot;:&quot;Regex&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;},{&quot;id&quot;:6,&quot;value&quot;:&quot;DevOps&quot;,&quot;author_id&quot;:null,&quot;created_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;,&quot;updated_at&quot;:&quot;2022-06-16T01:59:38.000Z&quot;}]}" data-react-cache-id="tags/Tags-0"><div class="align-items-center d-flex flex-wrap gap-3 my-2"><span class="label label-primary" style="font-size: 14px;">Regex</span><span class="label label-primary" style="font-size: 14px;">DevOps</span></div></div>
-<div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Concepts</h3>
-    </div>
-    <div class="panel-body">
-      <p>
-        <em>For this project, we expect you to look at this concept:</em>
-      </p>
-
-      <ul>
-          <li>
+<h3 class="panel-title">Concepts</h3>
+<div class="panel-body">
+   <p>
+   <em>For this project, we expect you to look at this concept:</em>
+   </p>
+   <ul>
+	   <li>
             <a href="/concepts/29">Regular Expression</a>
           </li>
-      </ul>
-    </div>
-  </div>
+   </ul>
+</div>
+
 <div class="panel panel-default" id="project-description">
   <div class="panel-body">
     <h2>Background Context</h2>
