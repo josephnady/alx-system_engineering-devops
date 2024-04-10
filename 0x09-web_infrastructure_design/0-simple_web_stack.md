@@ -1,5 +1,5 @@
 # Simple Web Stack
-![image](0x09-web_infrastructure_design/0-simple_web_stack.png)
+![image](https://github.com/josephnady/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/0-simple_web_stack.png)
 [Visit Board](https://miro.com/app/board/uXjVOfJwct0=/)
 ## Description
 This is a simple web infrastructure that hosts a website that is reachable via `www.foobar.com`. There are no firewalls or SSL certificates for protecting the server's network. Each component (database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server.
