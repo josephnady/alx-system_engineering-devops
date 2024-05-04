@@ -7,7 +7,7 @@ package { 'python3':
 
 # Define package resource to install python3-pip
 package { 'python3-pip':
-  ensure => installed,
+  ensure  => installed,
   require => Package['python3'], # Ensure Python3 is installed before installing python3-pip
 }
 
