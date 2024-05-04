@@ -1,5 +1,12 @@
 # Define package resource to install Flask
 package { 'flask':
-  ensure   => [installed, '2.1.0'],
+  ensure   => '2.1.0',
   provider => 'pip3',
+  command  => '/usr/bin/python3.8 -m pip',
+}
+
+package { 'werkzeug':
+  ensure   => '2.1.1',
+  provider => 'pip3',
+  command  => '/usr/bin/python3.8 -m pip',
 }
