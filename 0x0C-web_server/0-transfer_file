@@ -10,4 +10,4 @@ if [ "$#" -lt 3 ]; then
 	exit 1
 fi
 
-scp -i "$SSHKEYPATH" "$FILEPATH" "$USRNAME"@"$SERVIP":~/ 
+scp -o StrictHostKeyChecking=no -i "$SSHKEYPATH" "$FILEPATH" "$USRNAME"@"$SERVIP":~/ 
